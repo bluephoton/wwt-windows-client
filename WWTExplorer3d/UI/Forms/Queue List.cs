@@ -81,7 +81,7 @@ namespace TerraViewer
             // 
             wwtButton1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             wwtButton1.BackColor = Color.Transparent;
-            wwtButton1.DialogResult = DialogResult.None;
+            wwtButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             wwtButton1.ImageDisabled = null;
             wwtButton1.ImageEnabled = null;
             wwtButton1.Location = new Point(3, 737);
@@ -97,7 +97,7 @@ namespace TerraViewer
             // 
             ClearCache.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             ClearCache.BackColor = Color.Transparent;
-            ClearCache.DialogResult = DialogResult.None;
+            ClearCache.DialogResult = System.Windows.Forms.DialogResult.None;
             ClearCache.ImageDisabled = null;
             ClearCache.ImageEnabled = null;
             ClearCache.Location = new Point(173, 737);
@@ -119,7 +119,7 @@ namespace TerraViewer
             Controls.Add(listBox);
             Controls.Add(checkTilesInView);
             DoubleBuffered = true;
-            FormBorderStyle = FormBorderStyle.SizableToolWindow;
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             Name = "Queue_List";
             Opacity = 0.7;
             ShowIcon = false;

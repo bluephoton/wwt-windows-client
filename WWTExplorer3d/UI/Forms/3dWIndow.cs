@@ -5473,7 +5473,7 @@ namespace TerraViewer
             // 
             // Earth3d
             // 
-            AutoScaleMode = AutoScaleMode.None;
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             BackColor = Color.Black;
             ClientSize = new Size(863, 362);
             Controls.Add(kioskTitleBar);
